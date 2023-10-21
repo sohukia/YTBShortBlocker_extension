@@ -1,13 +1,12 @@
-window.addEventListener('DOMDocumentLoaded', event => {
+window.addEventListener('load', event => {
   console.log(event);
   
-  short = document.querySelector('[aria-label="Shorts"]');
+  short_menu_icon = document.querySelector('[aria-label="Shorts"]');
 
-  console.log(short);
-  setTimeout(()=>short.remove(), 5000);
+
+
+  setTimeout(() => {
+    short_menu_icon.remove();
+    console.log("Removed icon");
+  }, 5000);
 });
-
-
-// body.addEventListener('load', event => {
-//   console.log(event);
-// });
