@@ -1,0 +1,23 @@
+{
+  "name": "ytbshortblocker_extension",
+  "version": "1.0.0",
+  "description": "Extension that remove shorts section to prevent mindless scrolling.",
+  "main": "content_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:firefox": "web-ext run --source-dir ./extension-dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohukia/YTBShortBlocker_extension.git"
+  },
+  "author": "sohukia",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sohukia/YTBShortBlocker_extension/issues"
+  },
+  "homepage": "https://github.com/sohukia/YTBShortBlocker_extension#readme",
+  "devDependencies": {
+    "web-ext": "^7.8.0"
+  }
+}
