@@ -4,7 +4,7 @@ window.addEventListener('load', _e => {
           document.querySelector('[title="Shorts"]').parentElement.style.display = 'none'
       },
       () => {
-          document.querySelector('[is-shorts=""]').parentElement.parentElement.style.display = 'none'
+          document.querySelector('[is-shorts]').parentElement.parentElement.style.display = 'none'
       },
       () => {
           document.querySelector('[aria-label="Shorts"]').style.display = 'none';
