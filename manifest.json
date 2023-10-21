@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YTBShortBlocker",
+  "version": "0.0.1",
+  "description": "Disable youtube short to prevent mindless scrolling.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["styles.css"],
+      "js": ["word_list.js", "content_script.js"]
+    }
+  ]
+}
